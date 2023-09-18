@@ -1,0 +1,25 @@
+name: jera_discord_bot
+description: A new brick for generate a discord bot template
+repository: https://github.com/jera/web_bricks/jera_discord_bot
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.50 <0.1.0"
+
+vars:
+  bot_name:
+    type: string
+    description: Nome do bot
+    default: Dash
+    prompt: Qual o nome do bot?
+  bot_discord_token:
+    type: string
+    description: Token do bot
+    default: Dash
+    prompt: Qual o discord token do bot?
+  bot_client_id:
+    type: string
+    description: Client id do bot
+    default: Dash
+    prompt: Qual o client id do bot?

@@ -1,0 +1,21 @@
+{
+  "name": "{{bot_name.paramCase()}}",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node build/src",
+    "deploy-commands": "ts-node src/deployCommands.ts"
+  },
+  "devDependencies": {
+    "dotenv-flow": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
